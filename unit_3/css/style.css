@@ -15,7 +15,9 @@ li {
 .highlights {
 	font-style: italic;
 }
-div {
-	width: 500px;
-	height: 1000px;
+ul {
+	padding:0;
+}
+img {
+	
 }
