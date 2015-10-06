@@ -1,0 +1,21 @@
+body {
+	background-color:#191970;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+}
+p, h2, h3, li {
+	color:#6495ED;
+}
+h1 {
+	color:#F0F8F5;
+}
+li {
+	list-style-type:none;
+}
+.highlights {
+	font-style: italic;
+}
+div {
+	width: 500px;
+	height: 1000px;
+}
