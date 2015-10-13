@@ -21,3 +21,9 @@ ul {
 img {
 	width: 200px;
 }
+nav {
+	display:block;
+}
+a {
+	text-decoration: none;
+}
