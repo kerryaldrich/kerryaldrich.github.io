@@ -114,10 +114,10 @@ span {
 }
 
 #photo {
-/*	padding: 12% 0 11% 0;*/
-	height: 100%;
+	height: 93%;
+	padding-top: 5%;
 	width: 50%;
-	background-color: rgba(250, 250, 250, 0.75);
+	background-color: rgba(250, 100, 100, 0.85);
 	text-align: center;
 	float: left;
 }
@@ -148,19 +148,19 @@ span {
 
 #info {
 	width: 50%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.75);
+	height: 93%;
+	padding-top: 5%;
+	background-color: rgba(250, 250, 250, 0.85);
 	text-align: center;
 	float: right;
-/*	padding: 12% 0 11% 0;*/
 }
 
 #info p {
-	color: white;
+	color: black;
 	font-size: 1.6em;
 	text-align: left;
 	line-height: 1.5em;
-	font-weight: 100;
+	font-weight: 300;
 	padding: 5% 10% 0 10%;
 }
 
