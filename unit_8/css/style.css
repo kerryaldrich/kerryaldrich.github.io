@@ -185,7 +185,7 @@ span {
 	font-weight: 700;
 	color: rgb(0, 107, 179);
 	text-align: center;
-	line-height: 2em;
+	line-height: 1.8em;
 	border: solid 2px rgb(0, 107, 179);
 	text-transform: uppercase;
 	letter-spacing: .2em;
@@ -316,6 +316,11 @@ footer h3 {
 	.nav li {
 		min-width: 10%;
 	}
+
+	#resume h2 {
+		margin: 0 38% 2% 38%;
+		width: 26%;
+	}
 }
 
 
@@ -363,6 +368,11 @@ footer h3 {
 		display: block;
 		margin: 4px 0 4px 0;
 	}
+
+	#resume h2 {
+		margin: 0 36% 2% 36%;
+		width: 28%;
+	}
 }
 
 
@@ -374,5 +384,24 @@ footer h3 {
 
 	.logo {
 		min-width: 60px;
+	}
+
+	.left {
+		float: none;
+		text-align: left;
+		width: 90%;
+		margin: 0 5% 0 5%;
+	}
+
+	.right {
+		float: none;
+		text-align: left;
+		width: 80%;
+		margin: 0 10% 0 10%;
+	}
+
+	#resume h2 {
+		margin: 0 35% 2% 35%;
+		width: 30%;
 	}
 }
