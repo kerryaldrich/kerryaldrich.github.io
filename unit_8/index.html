@@ -11,12 +11,16 @@
 	<header id="home">
 		<div class="layer">
 			<div id="top">
-				<nav id="nav">
-					<a href="index.html" class="link">Home</a>
-					<a href="#about" class="link">About Me</a>
-					<a href="index.html"><img class="logo" src="images/kerry_logo.png" alt="Kerry Aldrich" title="Kerry"></a>
-					<a href="#resume" class="link">Resume</a>
-					<a href="#contact" class="link">Contact Me</a>
+				<div>
+					<img class="logo" src="images/kerry_logo.png" alt="Kerry Aldrich" title="Kerry">
+				</div>
+				<nav class="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li class="middle"><a href="#about">About Me</a></li>
+						<li class="middle"><a href="#resume">Resume</a></li>
+						<li><a href="#contact">Say Hey</a></li>
+					</ul>
 				</nav>
 			</div>
 			<div id="intro">
@@ -37,78 +41,174 @@
 		</div>
 		<div id="info">
 			<div id="info_content">
-				<p>I graduated Summa Cum Laude from <span>Washington University in St. Louis</span> in May of 2013 with a <span>B.S. in Chemical Engineering</span>. I recently completed my <span>M.S. in Management Science and Engineering</span> at <span>Stanford University</span>, where I strived to further my knowledge in business strategy, computer science, and systems optimization.</p>
-				<p>I currently work at <span>Capital One</span> as a Sr. Associate where I enjoy creating digital  products that merge <span>human-centered design</span> and <span>technical understanding</span>.</p>
+				<p>I graduated Summa Cum Laude from Washington University in St. Louis in May of 2013 with a B.S. in Chemical Engineering. I recently completed my M.S. in Management Science at Stanford University, where I strived to further my knowledge in business strategy, computer science, and human-centered design.</p>
+				<p>I am currently a Senior Business Analyst with Capital One and am passionate about leveraging the power of business strategy, human-centered design, and technology to develop innovative products and experiences customers love.</p>
 			</div>
 		</div>
 	</section>
 	<section id="resume">
-		<h2>Resume</h2>
-		<div id="education">
-			<h3>Education and Honors</h3>
-			<hr class="colorline">
-			<h4>Stanford University</h4>
-			<h5>March 2015</h5>
-			<p>M.S. Management Science and Engineering; <span class="special">GPA</span>: 4.04</p>
-			<p><span class="special">Leadership</span>: Linear and Nonlinear Optimization Grader</p>
-			<h4>Washington University in St. Louis</h4>
-			<h5>May 2013</h5>
-			<p>B.S. Chemical Engineering; <span class="special">GPA</span>: 4.00</p>
-			<p><span class="special">Honors</span>: Valedictorian, Summa Cum Laude, Tau Beta Pi Engineering Honor Society, Sigma Xi Honor Society</p>
-			<p><span class="special">Leadership</span>: Engineering Peer Advisor, Probability and Statistics Teaching Assistant, Chemistry Team Learning Leader </p>
-		</div>
-		<div id="work">
-			<h3>Recent Professional Experience</h3>
-			<hr class="colorline">
-			<h4>Capital One</h4>
-			<h5><span class="special">Senior Business Analyst</span>, July 2015 - Present</h5>
-			<p>Using design thinking to develop digital customer expereinces in the eCommerce space<p>
-			<p>Active in Stanford and Washington University recruiting (attend career fairs and selle events, help interview candidates run through practice cases, writing the Washington University case competition case)</p>
-			<p>Lead a weekly interesting meeting for our team, where we discuss a case, application, or ted talk that is not related to Capital One</p>
-			<h4>Capital One</h4>
-			<h5><span class="special">Business Analyst Intern</span>, Summer 2014</h5>
-			<p>Developed the business strategy for an early rewards program</p>
-			<p>Created an NPV model from scratch due to the lack of available data by making intuitive assumptions and extrapolating SAS models</p>
-			<p>Estimated an increase in NPS of 19 points per upgraded customer</p>
-			<p>Reported directly to a Vice President</p>
-			<h4>Stanford University</h4>
-			<h5><span class="special">Research Assistant</span>, Winter 2014</h5>
-			<p>Investigated companies in the solar industry to identify trends in adopting system and component strategies</p>
-			<p>Conducted interviews with executives at SolarCity, Sunrun, and other residential market leaders to collect data</p>
-			<h5>Other professional experience: Capital One (Summer 2013), U.S. Department of Energy (Summer 2012), Booz Allen Hamilton (Summer 2011), AtSite (Summer 2010)</h5>
-		</div>
-		<div id="projects">
-			<h3>Projects</h3>
-			<hr class="colorline">
-			<h4>Nomkind</h4>
-			<h5><span class="special">Marketing Consultant</span>, Spring 2014</h5>
-			<p>Conducted needfinding interviews to determine customer pain points and show proof of concept for Nomkind's mobile app</p>
-			<p>Used design thinking techniques to develop Nomkind's marketing strategy</p>
-			<h4>AdHusky</h4>
-			<h5><span class="special">Business Consultant</span>, Winter 2014</h5>
-			<p>Created and delivered targeted email messages for different categories of small to medium businesses to help AdHusky effectively communicate to its clients</p>
-			<p>Organized AdHusky's social media profiles and website during its rebranding</p>
-		</div>
-		<div id="skills">
-			<h3>Skills and Interests</h3>
-			<hr class="colorline">
-			<p><span class="skills">Personal Skills</span>: Team leadership, design thinking, public speaking, design research</p>
-			<p><span class="skills">Technical Skills</span>: Proficiency in Microsoft Office Suite, SQL, HTML, CSS, Java, C++, MATLAB, Microsoft Visio</p>
-			<p><span class="skills">Interests</span>: Skiing, sailing, traveling, entrepreneurship</p>
+		<div id="resume_layer">
+			<h2>Resume</h2>
+			<div id="education">
+				<h3>Education and Honors</h3>
+				<hr class="colorline">
+				<div class="group">
+					<div class="left">
+						<h4>Stanford University</h4>
+						<h5>March 2015</h5>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>M.S. Management Science and Engineering; <span>GPA: 4.04</span></p></li>
+							<li><p><span>Leadership</span>: Linear and Nonlinear Optimization Grader</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="group">
+					<div class="left">
+						<h4>Washington University</h4>
+						<h4>in St. Louis</h4>
+						<h5>May 2013</h5>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>B.S. Chemical Engineering; <span>GPA: 4.00</span></p></li>
+							<li><p><span>Honors</span>: Valedictorian, Summa Cum Laude, Tau Beta Pi Engineering Honor Society, Sigma Xi Honor Society</p></li>
+							<li><p><span>Leadership</span>: Engineering Peer Advisor, Probability and Statistics Teaching Assistant, Chemistry Team Learning Leader</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="work">
+				<h3>Recent Professional Experience</h3>
+				<hr class="colorline">
+				<div class="group">
+					<div class="left">
+						<h4>Capital One</h4>
+						<h5><span>Sr. Business Analyst</span></h5>
+						<h5>July 2015 - Present</h5>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>Using design thinking to develop digital customer expereinces in the eCommerce space</p></li>
+							<li><p>Active in Stanford and Washington University recruiting (attend career fairs and selle events, help interview candidates run through practice cases, writing the Washington University case competition case)</p></li>
+							<li><p>Lead a weekly interesting meeting for our team, where we discuss a case, application, or ted talk that is not related to Capital One</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="group">
+					<div class="left">
+						<h4>Capital One</h4>
+						<h5><span>Business Analyst Intern</span></h5>
+						<h5>Summer 2014</h5>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>Developed the business strategy for an early rewards program</p></li>
+							<li><p>Created an NPV model from scratch due to the lack of available data by making intuitive assumptions and extrapolating SAS models</p></li>
+							<li><p>Estimated an increase in NPS of 19 points per upgraded customer</p></li>
+							<li><p>Reported directly to a Vice President</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="group">
+					<div class="left">
+						<h4>Stanford University</h4>
+						<h5><span>Research Assistant</span></h5>
+						<h5>Winter 2014</h5>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>Investigated companies in the solar industry to identify trends in adopting system and component strategies</p></li>
+							<li><p>Conducted interviews with executives at SolarCity, Sunrun, and other residential market leaders to collect data</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="projects">
+				<h3>Projects</h3>
+				<hr class="colorline">
+				<div class="group">
+					<div class="left">
+						<h4>Nomkind</h4>
+						<h5><span>Marketing Consultant</span></h5>
+						<h5>Spring 2014</h5>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>Conducted needfinding interviews to determine customer pain points and show proof of concept for Nomkind's mobile app</p></li>
+							<li><p>Used design thinking techniques to develop Nomkind's marketing strategy</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="group">
+					<div class="left">
+						<h4>AdHusky</h4>
+						<h5><span>Business Consultant</span></h5>
+						<h5>Winter 2014</h5>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>Created and delivered targeted email messages for different categories of small to medium businesses to help AdHusky effectively communicate to its clients</p></li>
+							<li><p>Organized AdHusky's social media profiles and website during its rebranding</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="skills">
+				<h3>Skills and Interests</h3>
+				<hr class="colorline">
+				<div class="group">
+					<div class="left">
+						<h4>Personal Skills:</h4>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>Team leadership, design thinking, public speaking, design research</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="group">
+					<div class="left">
+						<h4>Technical Skills:</h4>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>Proficiency in Microsoft Office Suite, SQL, HTML, CSS, Java, C++, MATLAB, Microsoft Visio</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="group">	
+					<div class="left">
+						<h4>Interests:</h4>
+					</div>
+					<div class="right">
+						<ul>
+							<li><p>Skiing, sailing, traveling, entrepreneurship</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section id="contact">
 		<div class="layer">
 			<div id="contact_info">
 				<h1><span class="name">Get In Touch</span></h1>
-				<h2>If you want to contact me, feel free to give me a call at <span>(571)-429-0452</span> or email me at <span>kerry.aldrich@gmail.com</span>.</h2>
+				<h2>If you want to chat, feel free to email me at <span><a href="mailto:kerry.aldrich@gmail.com" target="blank">kerry.aldrich@gmail.com</a></span>.</h2>
 			</div>
+			<footer>
+				<a href="mailto:kerry.aldrich@gmail.com" target="blank" alt="Email Icon" title="Send me an email"> <img src="images/google.png"> </a>
+				<a href="https://www.facebook.com/kerryaldrich" alt="Facebook Icon" title="Add me on Facebook"> <img src="images/facebook.png"> </a>
+				<a href="https://www.linkedin.com/pub/kerry-aldrich/2b/1a/718" alt="LinkedIn Icon" title="Add me on LinkedIn"> <img src="images/linkedin.png"> </a>
+				<a href="https://twitter.com/kerrya15" alt="Twitter Icon" title="Follow me on Twitter"> <img src="images/twitter.png"> </a>
+				<a href="https://www.instagram.com/kerryaldrich/" alt="Instagram Icon" title="Follow me on Instagram"> <img src="images/instagram.png"> </a>
+				<div>
+					<h3>&copy 2015 Kerry Aldrich</h3>
+				</div>
+			</footer>
 		</div>
 	</section>
-	<footer>
-		<a href="https://www.facebook.com/kerryaldrich">Facebook</a>
-		<a href="https://www.linkedin.com/pub/kerry-aldrich/2b/1a/718">LinkedIn</a>
-		<a href="https://twitter.com/kerrya15">Twitter</a>
-	</footer>
+	
 </body>
 </html>
