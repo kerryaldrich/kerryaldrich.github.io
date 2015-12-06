@@ -71,8 +71,8 @@ a:hover {
 }
 
 #intro {
-	padding: 20% 10% 24% 10%;
-	height: 100%;
+	padding: 0 10% 0 10%;
+	height: 62%
 }
 
 #intro h1,h2,h3, #contact h1 {
@@ -87,7 +87,7 @@ a:hover {
 }
 
 #intro h2 {
-	font-size: 1.8em;
+	font-size: 2em;
 	padding: 0% 15% 0% 15%;
 	line-height: 2em;
 }
@@ -279,10 +279,9 @@ span {
 }
 
 #contact_info {
-	height: 20%;
+	height: 48%;
 	margin-left: 20%;
 	width: 60%;
-	padding: 17% 0 15% 0;
 }
 
 #contact_info h2 {
@@ -296,6 +295,10 @@ span {
    	height: 100%;
 }
 
+.space {
+	height: 38%;
+}
+
 footer {
 	display: inline-block;
 	width: 100%;
@@ -304,17 +307,17 @@ footer {
 	letter-spacing: 0.5em;
 	text-align: center;
 	background-color: rgba(0,0,0,.4);
-	padding: 1% 0 1% 0;
+	height: 14%;
 }
 
 footer img {
 	width: 3%;
-	padding: 0 1% 0 1%;
+	padding-top: 1%;
 }
 
 footer h3 {
-	padding-top: 1%;
 	color: white;
+	padding-top: 1%;
 }
 
 
