@@ -72,7 +72,7 @@ a:hover {
 
 #intro {
 	padding: 0 10% 0 10%;
-	height: 62%
+	height: 62%;
 }
 
 #intro h1,h2,h3, #contact h1 {
@@ -355,7 +355,7 @@ footer h3 {
 	.nav ul {
 		margin: 0 37.5% 0 37.5%;
 		width: 25%;
-		border: solid 1px white;
+		border: solid 3px white;
 		background: white;
 	}
 
