@@ -319,65 +319,49 @@ footer h3 {
 	}
 
 	.nav {
-        position:relative;
-        display:inline-block;
+        position: relative;
+        display: inline-block;
     }
  
     .nav ul.active {
-        display:none;
+        display: none;
     }
  
     .nav ul {
-        width:100%;
-        position:absolute;
-        top:120%;
-        left:0px;
-        padding:10px 18px;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-        border-radius:3px;
-        background:#303030;
+        width: 100%;
+        position: absolute;
+        top: 120%;
+        left: -5%;
+        padding: 3%;
     }
  
     .nav ul:after {
-        width:0px;
-        height:0px;
-        position:absolute;
-        top:0%;
-        left:22px;
-        content:'';
-        transform:translate(0%, -100%);
-        border-left:7px solid transparent;
-        border-right:7px solid transparent;
-        border-bottom:7px solid #303030;
+        position: absolute;
+        content: '';
     }
  
     .nav li {
-        margin:5px 0px 5px 0px;
-        float:none;
-        display:block;
+        float: none;
+        display: block;
     }
  
     .nav a {
-        display:block;
+        display: block;
     }
  
     .toggle-nav {
-        padding:20px;
-        float:left;
-        display:inline-block;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-        border-radius:3px;
-        background:#303030;
-        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-        color:#777;
-        font-size:20px;
-        transition:color linear 0.15s;
+        padding: 1%;
+        float: left;
+        display: inline-block;
+        color: white;
+        font-size: 3em;
     }
  
     .toggle-nav:hover, .toggle-nav.active {
-        text-decoration:none;
-        color:#66a992;
+        text-decoration: none;
+        color: #FF6666;
     }
+
 	#resume h2 {
 		margin: 0 36% 2% 36%;
 		width: 28%;
