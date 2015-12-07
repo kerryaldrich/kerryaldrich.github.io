@@ -5,7 +5,19 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script>
+		$(document).ready(function() {
+	    	$('.toggle-nav').click(function(e) {
+	       		$(this).toggleClass('active');
+	        	$('.nav ul').toggleClass('active');
+	        	e.preventDefault();
+		    });
+		});
+	</script>
+
 </head>
 <body>
 	<header id="home">
@@ -15,12 +27,13 @@
 					<img class="logo" src="images/kerry_logo.png" alt="Kerry Aldrich" title="Kerry">
 				</div>
 				<nav class="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
+					<ul class="active">
+						<li class="current-item"><a href="index.html">Home</a></li>
 						<li class="middle"><a href="#about">About Me</a></li>
 						<li class="middle"><a href="#resume">Resume</a></li>
 						<li><a href="#contact">Say Hey</a></li>
 					</ul>
+					<a class="toggle-nav" href="#">&#9776;</a>
 				</nav>
 			</div>
 			<div class="space">
@@ -33,18 +46,18 @@
 		</div>
 	</header>
 	<section id="about">
-		<div id="photo">
-			<div id="photo_content">
-				<img class="circular" src="images/kerry-2.jpg" alt="Kerry" title="Kerry">
-				<h2>Kerry Aldrich</h2>
-				<h3>Analyst</h3>
-				<hr>
+		<div id="aboutlayer">
+			<div id="byday">
+				<p>By day, I work as a product manager at Capital One, focusing on creating new products and experiences that our customers will love. I interview our customers to uncover pain points across future and existing product experiences. Then I get to translate that data into compelling stories and combine it with my knowledge of our business and of technology to create new products and services.</p>
 			</div>
-		</div>
-		<div id="info">
-			<div id="info_content">
-				<p>I graduated Summa Cum Laude from Washington University in St. Louis in May of 2013 with a B.S. in Chemical Engineering. I recently completed my M.S. in Management Science at Stanford University, where I strived to further my knowledge in business strategy, computer science, and human-centered design.</p>
-				<p>I am currently a Senior Business Analyst with Capital One and am passionate about leveraging the power of business strategy, human-centered design, and technology to develop innovative products and experiences customers love.</p>
+			<div id="bynight">
+				<p>Outside of work, I love traveling to new places, hitting the slopes, enjoying new resturaunts and wineries with my friends, and kicking back to a good movie (or in reality just FRIENDS)</p>
+			</div>
+			<div id="thoughts">
+				<p>I spend a lot of time thinking about technology & society (how it's changing the way we live), habit building & behavior change, and personal growth & professional development.</p>
+			</div>
+			<div id="important">
+				<p>The things that are most important to me: empathy, collaboration, chasing learning, continuous self-improvement, and my people.</p>
 			</div>
 		</div>
 	</section>
