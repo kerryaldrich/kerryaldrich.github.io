@@ -130,11 +130,9 @@ span {
 	color: rgb(250, 100, 100);
 	text-align: center;
 	line-height: 1.8em;
-	border: solid 2px rgb(250, 100, 100);
 	text-transform: uppercase;
 	letter-spacing: .2em;
-	margin: 0 40% 3% 40%;
-	width: 20%;
+	margin: 0 40% 1% 40%;
 }
 
 #info h2 {
@@ -311,7 +309,7 @@ footer h3 {
 		min-width: 10%;
 	}
 
-	#info h1, #resume h2 {
+	#resume h2 {
 		margin: 0 38% 2% 38%;
 		width: 26%;
 	}
@@ -372,7 +370,7 @@ footer h3 {
         color: #FF6666;
     }
 
-	#info h1, #resume h2 {
+	#resume h2 {
 		margin: 0 36% 2% 36%;
 		width: 28%;
 	}
@@ -403,7 +401,7 @@ footer h3 {
 		margin: 0 10% 0 10%;
 	}
 
-	#info h1, #resume h2 {
+	#resume h2 {
 		margin: 0 35% 2% 35%;
 		width: 30%;
 	}
